@@ -1,0 +1,82 @@
+:root {
+    --body_color: rgb(197, 197, 252);
+    --df_pad: 20px;
+    --nav_bcolor: rgb(104, 27, 27);
+}
+
+main {
+    padding: var(--df_pad);
+}
+
+.content {
+    display: flex;
+    z-index: -1;
+    margin-top: 80px;
+    padding: 30px;
+    height: 300px;
+    background-color: rgb(67, 30, 102);
+}
+
+.cont1 {
+    margin-left: 150px;
+    height: 280px;
+    width: 400px;
+    background-color: rgb(226, 43, 128);
+}
+
+.cont1 h2 {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline rgb(255, 153, 0);
+}
+
+.cont1 a{
+    background-color: rgb(165, 245, 229);
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.cont1 img{
+    border-radius: 50px;
+}
+/* --------------------------------------- */
+
+
+.cont2 {
+    margin-left: 150px;
+    height: 280px;
+    width: 400px;
+    background-color: rgb(226, 43, 226);
+}
+
+.cont2 h2 {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline rgb(255, 153, 0);
+}
+
+.cont2 a{
+    background-color: rgb(165, 245, 229);
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.cont2 img{
+    border-radius: 50px;
+}
+
+/* --------------------------------------- */
+
+.info{
+    margin: 10px 130px 0px 130px;
+    height: 175px;
+    background-color: rgb(40, 28, 87);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+.info h1{
+    color: aliceblue;
+    padding: 50px;
+    font-size: 30px;
+}
+
+/* ---------------------------------------------- */

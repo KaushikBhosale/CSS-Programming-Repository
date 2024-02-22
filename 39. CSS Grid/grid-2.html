@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Naming</title>
+    <style>
+        /* Grid lines : the line repesenting the grid */
+        /* Grid cell : A single block just like excel */
+        /* Grid track : A area between two grid lines ( Horizantally or vertically ) */
+        /* Grid Area : A area between two grid lines (Horizantally) & two grid lines (Vertically) */
+
+
+        .container {
+            border: 3px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav"
+                "side article article"
+                "footer footer footer";
+                
+            row-gap: 10px;
+            column-gap: 20px;
+        }
+
+        .item {
+            border: 2px solid red;
+            /* width: 55px; */
+            height: 55px;
+        }
+
+        .item-1 {
+            grid-area: nav;
+            background-color: rgb(187, 151, 221);
+        }
+
+        .item-2 {
+            grid-area: side;
+            background-color: orange;
+        }
+
+        .item-3 {
+            grid-area: article;
+            background-color: rgb(151, 221, 160);
+        }
+
+        .item-4 {
+            grid-area: footer;
+            background-color: rgb(221, 151, 198);
+        }
+        
+        .item-5 {
+            grid-area: nav;
+            /* background-color: rgb(250, 245, 248); */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item item-1">1 NAV</div>
+        <div class="item item-2">2 SIDE</div>
+        <div class="item item-3">3 ARTICLE</div>
+        <div class="item item-4">4 FOOTER</div>
+        <div class="item item-5">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+    </div>
+
+
+
+</body>
+
+</html>

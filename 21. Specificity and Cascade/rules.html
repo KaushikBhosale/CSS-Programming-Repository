@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity And Cascade</title>
+    <style>
+        /* The specificity of Element selector is 1  */
+        h1 {
+            color: aqua;
+        }
+        /* Note : The specificity of ID selector is 100  */
+
+        /* The specificity of class selector is 10  */
+        .cpurple {
+            color: purple;
+        }
+
+
+        /* The specificity of this selector is 1 + 10 = 11  */
+        h1.yellow {
+            color: yellow;
+        }
+
+        /* This is an example of attribute selector. The specificity of attribute selector is 10 */
+        [data-x=a] {
+            color: maroon;
+        }
+
+        /* The specificity of this selector is 10  */
+        .cred {
+            color: red;
+        }
+
+        /* The specificity of this selector is 1 + 10 + 10 + 10 + 10 = 41  */
+        a.harryclass.rohan-class[href]:hover {
+            color: blueviolet;
+        }
+
+        /* The specificity of important selector is 10000  */
+        /* .cpurple {
+            color: grey !important;
+        } */
+
+        /* The specificity of universal selector is   0  */
+    /*     *{
+            color: pink;
+            } 
+    */
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- The specificity Inline selector is   1000  -->
+        <!-- <h1 style="color: orange;" class="yellow cred cpurple" data-x="a">CSS Specificity</h1> -->
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    </div>
+    <div>
+        <h2>The specificity Inline selector is 1000</h2>
+        <h2>The specificity of ID selector is 100</h2>
+        <h2>The specificity of class, attribute, pseudo selector is 10</h2>
+        <h2>The specificity of Element selector is 1 </h2>
+        <h2>The specificity of universal selector is   0 </h2>
+        <h2>The specificity of important selector is 10000</h2>
+    </div>
+</body>
+
+</html>

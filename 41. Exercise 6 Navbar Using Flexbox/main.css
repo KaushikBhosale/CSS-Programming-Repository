@@ -1,0 +1,159 @@
+.cont2 ul {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 110px;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cont2 ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.cont2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.items {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.items ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.items ul li {
+    text-align: center;
+    height: 180px;
+    width: 320px;
+    background-color: rgb(250, 247, 247);
+    border: 8px solid white;
+    list-style: none;
+
+
+}
+
+.items ul li h1 {
+    padding: 0px 0px 50px 0px;
+}
+
+
+.download1 {
+    height: 40px;
+    background-color: rgb(18, 212, 212);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.download1:hover {
+    background-color: rgb(9, 124, 124);
+}
+
+.download2 {
+    height: 40px;
+    background-color: rgb(9, 173, 9);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.download2:hover {
+    background-color: rgb(9, 138, 9);
+}
+
+.cont3 {
+    margin-top: 80px;
+    height: 730px;
+    background-color: rgb(34, 33, 33);
+}
+
+.first ul {
+    display: flex;
+    justify-content: center;
+}
+
+.first ul li {
+    list-style: none;
+}
+
+.join {
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 150px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    justify-items: center;
+    text-align: center;
+}
+
+.login {
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 150px;
+    background-color: white;
+    height: 270px;
+    width: 410px;
+    border-radius: 10px;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.login h2 {
+    font-size: 1.9em;
+    color: rgb(40, 218, 218);
+    padding-top: 40px;
+}
+
+.login p {
+    color: black;
+    padding-top: 0px;
+}
+
+.login input {
+    border: 1px solid rgb(184, 184, 184);
+    height: 40px;
+    width: 300px;
+}
+
+.btnlogin {
+    padding-top: 0px;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(11, 196, 186);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+
+}
+
+.btnlogin:hover {
+    background-color: rgb(7, 150, 143);
+}
+
+.second {
+    margin-top: 85px;
+    margin-left: 40px;
+}
+.second pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+.second pre a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}

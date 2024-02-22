@@ -1,0 +1,92 @@
+<!-- 
+    UPDATE the Website and create 5 different colour website
+
+    Create a nav bar & then create a style sheet by which i will change a variable 
+    for which you need to create a global variables and according to those color 
+    of your color will change that is, you have to make a multicolor navbar.
+    Do task using CSS variables file no 30 reference.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color Website (UPDATE) </title>
+
+    <style>
+        :root {
+            --c_red: red;
+            --c_blue: rgb(174, 174, 243);
+            --c_green: rgb(86, 128, 86);
+            --c_aqua: aqua;
+            --c_brown: brown;
+            --df_pad: 20px;
+        }
+
+        /* :root {
+            --c_red: #f0b6b6;
+            --c_blue: rgb(77 77 241);
+            --c_green: rgb(134 241 134);
+            --c_aqua: #a0ebcc;
+            --c_brown: #6a0707;
+            --df_pad: 30px;
+        } */
+
+        body {
+            background-color: var(--c_red);
+        }
+
+        nav {
+            background-color: var(--c_blue);
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: var(--df_pad);
+            border: 2px solid var(--c_brown, rgb(105, 54, 54));
+        }
+
+        nav ul :nth-child(1) {
+            background-color: orange;
+        }
+
+        nav ul :nth-child(2) {
+            background-color: var(--c_aqua);
+        }
+
+        nav ul :nth-child(3) {
+            background-color: var(--c_green, pink);
+        }
+
+        .container {
+            background-color: rgb(228, 225, 225);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum vel illo nostrum delectus eligendi mollitia quos
+        deleniti amet voluptatibus eos dolore sit nesciunt molestias laboriosam harum nam, et doloremque vero quis unde
+        quidem. Inventore cupiditate eaque ex sunt. Placeat aut dolorum porro aspernatur, delectus aliquam doloribus est
+        inventore commodi nemo!
+    </div>
+</body>
+
+</html>

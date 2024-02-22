@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows And Outlines</title>
+    <style>
+        .box {
+            border: 2px solid red;
+            padding: 34px;
+            box-shadow: 5px 15px 5px 15px blue inset;
+        }
+
+        .textelement {
+            text-shadow: 3px 4px 5px green;
+            outline: 2px solid yellow;
+            border: 4px solid aqua;
+            outline-offset: 12px;
+            border-radius: 35px; /* it curves the border corner and outline follows it */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Ia m a Box</div>
+    <p class="textelement">
+        Text Shadow Effect Demo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ad facilis officiis praesentium itaque rerum perferendis doloribus ullam? Labore assumenda natus, deserunt quo magni odio consectetur. Necessitatibus soluta commodi velit?
+    </p>
+</body>
+
+</html>

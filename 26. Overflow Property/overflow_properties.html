@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Property</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 250px;
+            border: 2px solid red;
+            overflow: auto;
+            /* white-space: nowrap; */
+            /* text-overflow: ellipsis; */
+
+            /* Aply the properties x Direction */
+            /* overflow-x: scroll; */
+
+            /*Aply the properties y Direction */
+            /* overflow-y: hidden;*/
+
+            /*Aply the properties Both (X Y)  Direction */
+            overflow: hidden scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga autem exercitationem omnis voluptatum sit veniam
+        voluptatem sed ducimus numquam cumque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, possimus!
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: red;
+        }
+
+        /* class selector */
+        .blue{
+            background-color: blue;
+        }
+
+        /* Id selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child selector */
+        div>p{
+            background-color: aqua;
+        }
+
+        /* Descendent selector */
+        div p h1{
+            color: rgb(255, 255, 255);
+        }
+        
+        
+        /* Universal selector */
+        *{
+            margin:  10px 10px 10px 10px;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: brown;
+        }
+
+        a:link { /* Unvisited link */ 
+            color: rgb(46, 83, 3);
+        }
+
+        a:hover{ /* cursor presentation before click*/
+            color: rgb(255, 0, 0);
+            background-color: black;
+        }
+
+        a:active { /* cursor presentation after click*/ 
+            background-color: rgb(187, 5, 126);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        I am a Div 
+    </div>
+
+    <div>
+        I am another div
+    </div>
+
+    <div class="blue">
+        I am blue class div
+    </div>
+
+
+    <div id="green">
+        Hello my id is green
+    </div>
+    <hr>
+    <div>
+        Child Selector
+        <p>
+            Hello i am a aqua 
+        </p>
+    </div>
+
+
+    <div>
+        <p>
+            <h1>
+                THis is Descendent Selector
+            </h1>
+        </p>
+    </div>
+
+
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.drdypatil.com">Go to Instagram</a>
+</body>
+</html>

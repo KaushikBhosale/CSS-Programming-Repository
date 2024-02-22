@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Clear in CSS</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+
+        img {
+            /* float:left; */
+            float: right;
+            /* float: none; */
+        }
+
+        .card:nth-child(3) {
+            background-color: rgb(142, 224, 197);
+            clear: right;
+            /* clear: left; */
+            /* clear: both; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="nature.jpg" alt="Nature" width="230px">
+        <div class="card">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, qui error cupiditate corrupti dolore
+                accusamus sit neque sed tenetur fugit laborum voluptas iure eveniet commodi a quisquam animi, eos
+                expedita quae quas odit ullam!
+            </p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, aut numquam. Explicabo, autem
+            architecto. Perspiciatis, adipisci architecto optio odit distinctio, modi quisquam nemo odio pariatur nisi
+            id consequatur voluptatibus quam cum ut quasi tempore quo voluptatum ex saepe facere dolor recusandae! Unde
+            cupiditate rerum eligendi a. Minus rem, laborum fugiat officia obcaecati suscipit mollitia facilis sequi
+            iure nulla labore doloribus qui laudantium inventore voluptates facere eveniet commodi? Ab dolorem modi,
+            voluptatibus dolore hic quo et sunt ipsum veniam veritatis! Vel animi cumque error aut fugit maiores
+            blanditiis sit cum reprehenderit eos repudiandae, consectetur iure dolorum. Ipsum in possimus esse
+            voluptates deserunt consectetur exercitationem necessitatibus voluptatem aperiam dignissimos, odit facilis
+            minima labore laboriosam incidunt animi sed beatae architecto sapiente impedit nulla numquam? Aliquid nemo
+            eius libero error suscipit quo totam dignissimos facilis sequi laudantium architecto nostrum velit, rerum
+            sit maiores, sed dolores? Minima, praesentium provident cum rerum quasi possimus perferendis quam vel odit
+            vero dolorum, ex sit. Beatae sint amet recusandae omnis consequatur quidem exercitationem sequi aspernatur
+            dicta qui provident dolores, animi, distinctio veritatis voluptas maiores tempora delectus, ab debitis
+            laborum! Maxime aliquid, nemo, veritatis totam et perferendis est placeat error inventore quibusdam
+            assumenda a cum. Voluptatum rerum tempora minus, porro numquam quisquam expedita? Eius corrupti tenetur
+            voluptatibus. Enim quae ut id. Aperiam ullam cum voluptatibus! Est voluptas, voluptatum vel ipsam optio
+            placeat maxime eos enim, rerum fuga eligendi porro nam ad blanditiis aspernatur in dolore sed! Molestias,
+            quisquam perspiciatis necessitatibus expedita optio omnis, nobis quasi facilis in reiciendis atque ullam
+            corrupti aperiam repellat. Cum odit sequi perspiciatis laborum asperiores tenetur quae quod itaque expedita
+            dolores numquam doloremque explicabo quisquam culpa reprehenderit, perferendis facere quas. Itaque rem
+            eveniet minima, possimus autem, corporis expedita mollitia veniam atque saepe rerum assumenda quos odio eius
+            consequatur, dolorem minus molestiae! Aliquid, accusamus blanditiis. Excepturi ducimus nemo, dicta quisquam
+            voluptate hic ab. Possimus reprehenderit nemo nulla perferendis impedit eligendi iusto unde, repudiandae
+            libero facere nisi ipsum vero quo sed quidem amet excepturi hic. Aperiam magni repellendus ratione
+            distinctio nihil. 2</div>
+        <div class="card">card 3</div>
+    </div>
+    </div>
+</body>
+
+</html>
